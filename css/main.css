@@ -1,0 +1,158 @@
+/* GENERAL */
+body{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 2;
+	color:#212121;
+}
+
+/* HEADER */
+header{
+	background-color: #FF9800;
+	border-top-color: #F57C00;
+	border-top-style: solid;
+	border-top-width: 1rem;
+	border-left-color: #F57C00;
+	border-left-width: 1rem;
+	border-left-style: solid;
+	border-right-color: #F57C00;
+	border-right-width: 1rem;
+	border-right-style: solid;
+}
+
+.logo h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 6rem;
+	color: #212121;
+	text-align: center;
+}
+
+header div{
+	text-align: center;
+}
+
+.menu a{
+	color: #757575;
+	text-decoration: none;
+	font-size: 3rem;
+}
+
+.menu a:hover{
+	color: white
+}
+
+
+/* MAIN CONTENT */
+
+main{
+	padding: 2rem 5%;
+}
+
+main h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 5rem;
+	border-bottom-color: #757575;
+	border-bottom-width: 2rem;
+	border-bottom-style: solid;
+}
+
+main h2{
+	font-size: 3rem;
+}
+
+main h3{
+	font-size: 2rem;
+}
+
+main h4{
+	font-size: 2rem;
+
+}
+
+/* COLUMN LEFT */
+
+.col-left img{
+	width: 100%;
+}
+
+.inner{
+	border-top: 2px solid #795548;
+	border-left: 2px solid #795548;
+	border-right: 2px solid #795548;
+	padding: 1rem;
+}
+
+.inner p{
+	font-size: 1.5rem;
+}
+
+.ingredients{
+	border-left: 2px solid #795548;
+	border-right: 2px solid #795548;
+	padding: 1rem;
+}
+
+.preparation{
+	border-bottom: 2px solid #795548;
+	border-left: 2px solid #795548;
+	border-right: 2px solid #795548;
+	padding: 1rem;
+}
+/* INNER COLUMN */
+
+/* COLUMN RIHGT */
+
+/* INGREDIENTS LIST */
+
+.ingredients ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.ingredients li{
+	padding: .5rem;
+	border-top: 1px solid #795548;
+	font-size: 1.5rem;
+}
+
+.preparation ol{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.preparation li{
+	border-top: 1px solid #795548;
+	padding: .5rem;
+	font-size: 1.5rem;
+}
+
+/* FOOTER */
+
+footer{
+	padding: 1.5rem;
+	background-color: #FF9800;
+	border-bottom-color: #F57C00;
+	border-bottom-style: solid;
+	border-bottom-width: 1rem;
+	border-left-color: #F57C00;
+	border-left-width: 1rem;
+	border-left-style: solid;
+	border-right-color: #F57C00;
+	border-right-width: 1rem;
+	border-right-style: solid;
+}
+
+footer p{
+	margin: 0;
+	color: #795548;
+}
+
+footer a{
+	text-decoration: none;
+	font font-family: "Montserrat", sans-serif;
+	color: #795548
+}
+
+footer a:hover{
+	color: white;
+}
